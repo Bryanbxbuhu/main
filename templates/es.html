@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>The Orange Parking | Aparcaminetos baratos | Reservar parqueo.</title>
+    <meta name="description"
+          content="Ofrecemos estacionamientos baratos cerca del aeropuerto, eventos de todos tipos y garajes cerca de ti.">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="google-site-verification" content="FGS87dmiYFUPZSKgNbWxriSFoq1KvRQSFNMw5sd7bXo"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/custom.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-957561182"></script>
+    <script>
+         window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-957561182');
+
+
+
+    </script>
+</head>
+<body>
+<div id="title" class="">
+    <div class="col-12">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary px-0 py-3">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="static/logo.png" class="h-8" alt="Orange Parking Logo">
+                </a>
+                <!-- Navbar toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- Nav -->
+                    <div class="navbar-nav me-lg-auto">
+                        <a class="nav-item nav-link active" href="#" aria-current="page">Select your Language: </a>
+                        <a class="nav-item nav-link" href="/"><img src="static/ukFlag.png" class="h-8"
+                                                                   alt="English Language"></a>
+                        <a class="nav-item nav-link" href="#"><img src="static/SpainFlag.png" class="h-8"
+                                                                   alt="Spanish Language"
+                                                                   alt="..."></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Main Card section -->
+<div id="main-format" class="container-fluid">
+    <div id="mainCard" class="card border-0">
+        <div class="row">
+            <!-- Main section for reservations -->
+            <!-- Booking area -->
+            <div class="col-md-6">
+                <div class="card w-200 p-4 mt-4 bg-primary text-white">
+                    <div class="row g-3">
+                        <div style="text-align: center;" class="col-12 mb-4">
+                            <h2>Reserve Ahora </h2>
+                            <h5 class="text-white">Destinos y fechas</h5>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-lg-12">
+                                <select onchange="myFunction()" id="myLocation" class="form-select bg-light"
+                                        aria-label="Default select example">
+                                    ** Toronto Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=43.67322303352654&longitude=-79.59750119536862&">
+                                        Toronto Pearson Intl Airport (YYZ),ON, Canada
+                                    </option>
+                                    ** Edmonton Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=53.309041030483954&longitude=-113.55364436105837&">
+                                        Edmonton Intl Airport (YEG),AB, Canada
+                                    </option>
+                                    /** Georgia Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.645876269111234&longitude=-84.44407230723687&">
+                                        Hartsfield-Jackson Atlanta Intl Airport (ATL), GA
+                                    </option>
+                                    //**** Florida Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.78522580059065&longitude=-80.28758388893876&">
+                                        Miami International Airport (MIA), FL
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=27.9917670992355&longitude=-82.53124399079927&">
+                                        Tampa Intl Airport (TPA), FL
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=30.49428422590109&longitude=-81.68173587796718&">
+                                        Jacksonville Intl Airport (JAX), FL
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=28.442295125769366&longitude=-81.3087751239775&">
+                                        Orlando International Airport (MCO), FL
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=26.07224899656138&longitude=-80.14004863330888&">
+                                        Hollywood Intl Airport (FLL), FL
+                                    </option>
+                                    //**** New York Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.65922760868365&longitude=-73.80168641383436&">
+                                        John F Kennedy Intl Airport (JFK), NY
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.769052762712235&longitude=-73.86820373946667&">
+                                        LaGuardia Airport, NY, US
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.693344968713504&longitude=-74.18616800981792&">
+                                        Newark Liberty Intl Airport (EWR), NJ
+                                    </option>
+                                    //**** Massachusetts Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.36911686261696&longitude=-71.02550325320604&">
+                                        Gen Edward Logan Intl Airport (BOS), MA
+                                    </option>
+                                    //**** California Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.94545884011029&longitude=-118.39895349379253&">
+                                        Los Angeles Intl Airport (LAX), CA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.61444446575057&longitude=-122.39488012616134&">
+                                        San Francisco Intl Airport (SFO), CA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=32.743497655165676&longitude=-117.1914471101066&">
+                                        San Diego Intl Airport (Lindbergh Field) (SAN), CA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.36682143453717&longitude=-121.9255734134368&">
+                                        Norman Y. Mineta San Jose Intl Airport (SJC) , CA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.71666453808012&longitude=-122.20896387067931&">
+                                        Metropolitan Oakland Intl Airport (OAK), CA
+                                    </option>
+                                    //**** Texas Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=32.91401790634879&longitude=-97.04018110927592&">
+                                        Dallas/Fort Worth Intl Airport (DFW), TX
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=29.98618597520447&longitude=-95.30812614292421&">
+                                        Houston/George Bush Intercontinental Airport (IAH), TX
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=29.52425926116661&longitude=-98.47779071509221&">
+                                        San Antonio Intl Airport (SAT), TX
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=31.798496925273625&longitude=-106.39379938815733&">
+                                        El Paso Intl Airport (ELP), TX
+                                    </option>
+                                    //**** Illinois Airports
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=41.97793514850&longitude=-87.884440815&">
+                                        O'Hare Intl Airport (ORD), IL
+                                    </option>
+                                    //**** Washington DC, Virginia and Maryland
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=38.851989781566175&longitude=-77.04322484655866&">
+                                        Ronald Reagan National Airport (DCA), VA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=38.963258555994976&longitude=-77.44693306603227&">
+                                        Washington Dulles Intl Airport (IAD), VA
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=39.190126946697056&longitude=-76.66037051623431&">
+                                        Baltimore/Washington Intl Thurgood Marshall Apt (BWI), MD
+                                    </option>
+                                    /** North Carolina Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=35.22613408641883&longitude=-80.94338018818448&">
+                                        Charlotte Douglas Intl Airport (CLT), NC
+                                    </option>
+                                    /** Tennessee Carolina Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=36.13717373233809&longitude=-86.67101610945564&">
+                                        Nashville Intl Airport (BNA) , TN
+                                    </option>
+                                    /** Washington State Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=47.44631081958392&longitude=-122.29762293809961&">
+                                        Seattle-Tacoma Intl Airport (SEA), WA
+                                    </option>
+                                    /** Nevada Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=36.09999078435031&longitude=-115.16967539244398&">
+                                        Las Vegas/Harry Reid Intl Airport (LAS), NV
+                                    </option>
+                                    /** Oregon Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=45.57884442944465&longitude=-122.56965738995542&">
+                                        Portland Intl Airport (PDX), OR
+                                    </option>
+                                    ** Utah Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.774477267390765&longitude=-111.97584543171621&">
+                                        Salt Lake City Intl Airport (SLC), UT
+                                    </option>
+                                    ** Colorado Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=39.8251852985815&longitude=-104.67712992493414&">
+                                        Denver Intl Airport (DEN), CO
+                                    </option>
+                                    ** Missouri Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=38.747307080779514&longitude=-90.38409661413796&">
+                                        Lambert Intl Airport (STL), MO
+                                    </option>
+                                    ** Ohio Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=39.99986628524279&longitude=-82.90030042789051&">
+                                        John Glenn Columbus Intl Airport (CMH), OH
+                                    </option>
+                                    ** Kansas Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=39.30372383725961&longitude=-94.70720778328605&">
+                                        Kansas City Intl Airport (MCI), MO
+                                    </option>
+                                    ** Arizona Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=32.12704779750179&longitude=-110.93918403546917&">
+                                        Tucson International Airport (TUS),AZ
+                                    </option>
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.438698574611166&longitude=-111.99087866341247&">
+                                        Phoenix Sky Harbor Int Airport (PHX),Phoenix,AZ
+                                    </option>
+                                    /** Connecticut Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=41.92815686886856&longitude=-72.67242811821328&">
+                                        Bradley Intl Airport (BDL),CT
+                                    </option>
+                                    /** Oklahoma Airports **/
+                                    <option value="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=36.18576988984559&longitude=-95.8886769557664&">
+                                        Tulsa International Airport (TUL), OK
+                                    </option>
+                                </select>
+                                <div class="input-group date" id="datepickerOne">
+                                    <input onchange="departChecker()" autofocus="autofocus" id="departDate" type="date"
+                                           autocomplete="on"
+                                           class="form-control material-icons md-18">
+                                </div>
+                                <div class="input-group date" id="datepickerTwo">
+                                    <input onchange="returnChecker()" autofocus="autofocus" id="returnDate" type="date"
+                                           autocomplete="on" value="dd/mm/YYYY"
+                                           class="form-control material-icons md-18">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button id="submit" class="btn btn-primary text-uppercase" type="button">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of main section and booking area -->
+            <!-- Here goes the second column main card content -->
+            <div class="col-md-6">
+                <div id="presentLetter" class="col">
+                    <h1 id="welcomeColor">Bienvenidos a Orange Parking</h1>
+                    <h5 id="welcomeSecond">Su agente personal de parqueos.</h5>
+                    <h5 id="welcomeFinal">Para localidades en la ciudad.</h5>
+                    <button id="welcomeThird" type="button" class="btn btn-outline-primary">Reserve Ahora</button>
+                    <h5 id="welcomeFourth">Localidades populares.</h5>
+                    <!-- off canvas top -->
+                    <button id="offBottom" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Check it out
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                         aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Popular locations parking</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <a>Miami,FL:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.804816507548853&longitude=-80.19797239916885&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Wynnwood</a>
+                            </li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.76508668675311&longitude=-80.19331696697904&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Brickell
+                                and Downtown</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.78454062538846&longitude=-80.13206363226304&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">South
+                                Beach/Miami Beach</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.731074269751367&longitude=-80.23947733244475&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Coconut
+                                Grove</a></li>
+                            <a>Atlanta,GA:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.784303403603666&longitude=-84.39016009299276&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Midtown
+                                Atlanta</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.76422439782955&longitude=-84.38411429888468&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Downtown
+                                Atlanta and Old Fourth Ward</a></li>
+                            <a>New York,NY:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.77138566748766&longitude=-73.95866537038637&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Upper
+                                East Side</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.714769300162395&longitude=-73.98452978147482&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Lower
+                                East Side</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.72323874037501&longitude=-74.00193086091542&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Soho</a>
+                            </li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.72672354043258&longitude=-73.98316647935832&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">East
+                                Village</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.7337665027649&longitude=-74.0019937504673&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Greenwich
+                                Village</a></li>
+                            <a>Los Angeles,CA:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=34.046098705325164&longitude=-118.25104793007135&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Downtown
+                                Los Angeles</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=34.092449816695456&longitude=-118.32979691298064&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Hollywood</a>
+                            </li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.98177273964942&longitude=-118.46699686042746&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Venice</a>
+                            </li>
+                            <a>San Francisco,CA:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.80598130780141&longitude=-122.44075671831204&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Marina
+                                District</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.80528924078362&longitude=-122.41254661435059&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">North
+                                Beach</a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.79340805902482&longitude=-122.4133501613379&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Nob
+                                Hill</a></li>
+                            <a>Charlotte,NC:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=35.22812669801149&longitude=-80.84529335102877&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Charlotte
+                                City Center
+                            </a></li>
+                            <a>Boston,MA:</a>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.3589854074421&longitude=-71.05856815384233&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Downtown
+                                Boston
+                            </a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.34615971395719&longitude=-71.09971736278291&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Fenway–Kenmore
+                            </a></li>
+                            <li><a style="color: blue"
+                                   href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.34906084457259&longitude=-71.03927552899584&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Seaport
+                                District
+                            </a></li>
+                        </div>
+                        <!---off canvas end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of main Card section -->
+<!-- Airports Buttons section -->
+
+<!-- end of Buttons sections -->
+<div class="container-fluid">
+    <div id="formattingCarr" class="card p-4 mt-6 bg-primary">
+        <div class="row">
+            <div id="carrFormat" class="col-lg-6">
+                <div class="d-flex justify-content-between">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://cdn.pixabay.com/photo/2016/02/14/02/21/miami-1198921_960_720.jpg"
+                                     class="d-block w-100" alt="Miami Parking">
+                                <div class="carousel-caption">
+                                    <h5>
+                                        <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.785274479141545&longitude=-80.13200745676778&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Miami
+                                            Beach,FL</a></h5>
+                                    <h6><a id="linkZero">Verificar parqueo en esta area.</a></h6>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.pixabay.com/photo/2016/10/16/13/06/new-york-1745089_960_720.jpg"
+                                     class="d-block w-100" alt="New York Parking">
+                                <div class="carousel-caption">
+                                    <h5>
+                                        <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.70857373464156&longitude=-73.99635534344999&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Manhattan,NY</a>
+                                    </h5>
+                                    <h6 id="linkOne"><a>Verificar parqueo en esta area.</a></h6>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.pixabay.com/photo/2018/09/20/13/22/boston-3690818_960_720.jpg"
+                                     class="d-block w-100" alt="Boston Parking">
+                                <div class="carousel-caption">
+                                    <h5>
+                                        <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.35583854007405&longitude=-71.06273567734037&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Boston
+                                            Commons,Ma</a></h5>
+                                    <h6 id="linkTwo"><a>Verificar parqueo en esta area.</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---Canada card where it shows three options in the cities-->
+<div class="container-fluid">
+    <div id="canadaCard" class="card p-4 mt-6 bg-primary">
+        <div class="row">
+            <div class="d-flex justify-content-between">
+                <span class="Canada" style="text-align: center">Canada</span>
+            </div>
+            <!-- First small card in the Canada section--->
+            <div id="margin-card" class="card" style="width: 18rem;">
+                <img src="https://cdn.pixabay.com/photo/2017/05/09/03/47/buildings-2297210_960_720.jpg"
+                     class="card-img-top" alt="Toronto City Parking" style="height: 170px;">
+                <div class="card-body">
+                    <h5 class="card-title">Toronto</h5>
+                    <p class="card-text">Toronto es la ciudad más grande de Canadá, y un centro de negocios, finanzas y
+                        vida cultural. Estacione su coche y conozca la ciudad.</p>
+                    <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=43.67159139824095&longitude=-79.39197530571823&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson"
+                       class="btn btn-primary">Reserve Ahora</a>
+                </div>
+            </div>
+            <!-- Third small card in the Canada section--->
+            <div id="margin-card-three" class="card" style="width: 18rem;">
+                <img src="https://cdn.pixabay.com/photo/2012/12/19/04/04/calgary-70848_960_720.jpg" class="card-img-top"
+                     alt="Calgary City Parking" style="height: 170px;">
+                <div class="card-body">
+                    <h5 class="card-title">Calgary</h5>
+                    <p class="card-text">Calgary es el headquarters de la industria petrolera del país. La ciudad tiene
+                        mucho más que ofrecer. Estacione su coche y conozca la ciudad.</p>
+                    <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=51.047064382468065&longitude=-114.0678185739509&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson"
+                       class="btn btn-primary">Reserve Ahora</a>
+                </div>
+            </div>
+            <!-- Fourth small card in the Canada section--->
+            <div id="margin-card-four" class="card" style="width: 18rem;">
+                <img src="https://cdn.pixabay.com/photo/2013/02/04/04/48/edmonton-77735_960_720.jpg"
+                     class="card-img-top" alt="Edmonton City Parking" style="height: 170px;">
+                <div class="card-body">
+                    <h5 class="card-title">Edmonton</h5>
+                    <p class="card-text">Edmonton es la capital de la provincia de Alberta, y es conocida por ser la
+                        base para transportarse, ver magníficos paisajes, cascadas y glaciales. Estacione su coche y
+                        conozca la ciudad.</p>
+                    <a href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=53.541556139002225&longitude=-113.48741602135274&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson"
+                       class="btn btn-primary">Reserve ahora</a>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---Off Canvas Menu-->
+<div class="container-fluid">
+    <div id="eventsCard" class="card p-4 mt-6 bg-primary">
+        <div class="row">
+            <div class="d-flex justify-content-between">
+                <h4 id="canvasMessage">Events</h4>
+            </div>
+            <div class="col-md-3">
+                <!-- off canvas top -->
+                <a style="color: white">New York,NY:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=40.75047196840998&longitude=-73.99349234681421&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Madison
+                    Square Garden P</a>
+                </li>
+                <a style="color: white">San Francisco,CA:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=37.77857811996336&longitude=-122.38939854877248&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Oracle
+                    Park P</a>
+                </li>
+            </div>
+            <div class="col-md-3">
+                <a style="color: white">Los Angeles,CA:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=33.949781951656696&longitude=-118.33837241955432&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">SoFi
+                    Stadium P</a>
+                </li>
+                <a style="color: white">Chicago,IL:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=41.86204573299624&longitude=-87.61697694841168&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Soldier
+                    Field P</a>
+                </li>
+            </div>
+            <div class="col-md-3">
+                <a style="color: white">Boston,MA:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=42.36618306907104&longitude=-71.06172353919052&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">TD
+                    Garden P</a>
+                </li>
+                <a style="color: white">Dallas,TX:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=32.790600919484596&longitude=-96.81050943754595&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">American
+                    Airlines Center P</a>
+                </li>
+            </div>
+            <div class="col-md-3">
+                <a style="color: white">Miami,FL:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=25.781208121044624&longitude=-80.18894312795216&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">FTX
+                    Arena P</a>
+                </li>
+                <a style="color: white">Los Angeles,CA:</a>
+                <li><a style="color: #FF6C00;"
+                       href="https://spothero.app.link/ts1p2NqSe1?kind=address&latitude=34.042910799333775&longitude=-118.26706098379894&$3p=a_hasoffers&$affiliate_json=http%3A%2F%2Ftracking.spothero.com%2Faff_c%3Foffer_id%3D1%26aff_id%3D1574%26format%3Djson">Crypto.com
+                    Arena P</a>
+                </li>
+            </div>
+            <!-- bottom for more -->
+            <button id="finalButton" type="button" class="btn btn-outline-success">Otros</button>
+        </div>
+    </div>
+</div>
+<!----Future options---->
+<!-- Site footer -->
+<div class="container-fluid">
+    <div id="footPart" class="card p-4 mt-6">
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <h6>About</h6>
+                        <p class="text-justify">This is an initiative to help our customers to navigate our
+                            provider
+                            parking sites.
+                            We are marketing partner of Spot Hero and all the links and results will lead to
+                            their
+                            sites, as well as all transactions,
+                            for this purpose we will be providing their customers service contact link as
+                            well as
+                            any
+                            other information that you may need from them,
+                            We are not responsible for any issue arising from services provided by then. By
+                            using
+                            our
+                            site you accept these terms.</p>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <h6>Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a style="color: black" href="https://spothero.com/contact">Contact our
+                                Provider</a>
+                            </li>
+                            <li><a style="color: black" href="https://spothero.com/faq">How our partner
+                                operates</a>
+                            </li>
+                            <li><a style="color: black" href="https://www.tune.com/">How we partner with our
+                                provider</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                        <p class="copyright-text">Copyright &copy; {{ year }} All Rights Reserved by
+                            <a>Fireside Software</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</div>
+<script src="static/main.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V83T1RN02P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V83T1RN02P');
+
+
+
+
+
+</script>
+</body>
+</html>

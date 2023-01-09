@@ -1,0 +1,307 @@
+[33mcommit b4adecb0847597f7980254b876d1e3b2738ef08d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Mon Jan 2 11:21:36 2023 -0600
+
+    New site
+
+[33mcommit 876f4ba6e6519c9bd318ffdf4201634e8055dc5d[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Mon Jan 2 09:58:30 2023 -0600
+
+    fixing sitemap
+
+[33mcommit 64b7807916b299da7ab2982407102198b1830002[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 19:15:26 2023 -0600
+
+    fixing buttons
+
+[33mcommit 6a8b5234b4cf82037148d7914f9991a5f01f6fb0[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 19:11:33 2023 -0600
+
+    fixing buttons
+
+[33mcommit bb173332bf3e0bea336f5a1ce94bceba4c216c46[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 18:17:31 2023 -0600
+
+    fixing canonical
+
+[33mcommit 655b0c458dceb9ab5697bc36151e06e424c59ad1[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 18:11:38 2023 -0600
+
+    Adding canonical
+
+[33mcommit 916fca596cc4cc217e704bf244d628cc5bcba0cc[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 18:05:19 2023 -0600
+
+    Adding canonical
+
+[33mcommit e5c91a0c7a92a4d5909cc86460c314fba0647a49[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 17:56:12 2023 -0600
+
+    Fixing sitemap
+
+[33mcommit 52dc344da1eb4d78a2bdc30bde55b7d578853058[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 17:51:08 2023 -0600
+
+    Removing double site
+
+[33mcommit db6365fbdb384155237952e213172d2a857c2357[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 17:36:28 2023 -0600
+
+    Using Jquery to disable past dates selection
+
+[33mcommit b6b2203b52b2d30d348f40966b03cea3d71cf0c3[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 17:00:12 2023 -0600
+
+    Fixing title and the redirect buttons from javascript to Jquery
+
+[33mcommit ecbabf74cf6557193180c77b6dd671c60cb86081[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 11:48:43 2023 -0600
+
+    Fixed Robots.txt
+
+[33mcommit 5556d41adbeaa9febd24722b1942aa1d89d8bbee[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 11:22:04 2023 -0600
+
+    Fixed Robots.txt
+
+[33mcommit 240207ef2e6a416e83b98f6da8c2cad4f89095b0[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 11:17:53 2023 -0600
+
+    Fixed Robots.txt
+
+[33mcommit 0cffa6b69f977cd854f7891ba3787498d93a79a1[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 11:12:40 2023 -0600
+
+    Better description tag
+
+[33mcommit 16c9a78b9143620d6686630fedc880e2aa28790a[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 10:57:00 2023 -0600
+
+    IndexNow file
+
+[33mcommit b1b26c3da9ae0ebae4cf693656451cd38e0dc283[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 10:49:58 2023 -0600
+
+    Robots.txt
+
+[33mcommit a499681ee7ecb21bb5861f0d4d914b40ebb2d0dc[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 10:43:24 2023 -0600
+
+    Adding sitemap
+
+[33mcommit 5845c0fa5efdef06e0ecbfdce490e3c59a0a0aa2[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 10:32:23 2023 -0600
+
+    Adding sitemap
+
+[33mcommit 7d53d760df4169d6aff6377e30bcd3cd3366681f[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 10:18:28 2023 -0600
+
+    Adding description meta tag and h1 and dates functionality
+
+[33mcommit 863719e8ecd9caf043c14e408d66abb2558f5f8b[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sun Jan 1 08:46:17 2023 -0600
+
+    Adding description meta tag and h1
+
+[33mcommit 15a6323e30c6c8efd9f1b966e3df574958147bdf[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sat Dec 31 08:50:26 2022 -0600
+
+    Adding AZ airports
+
+[33mcommit d2b3fcc76b725f1c54d0bb1b4ae0d64090c7e403[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Sat Dec 31 08:13:35 2022 -0600
+
+    Bing tag verify
+
+[33mcommit 781586dc6b781a11227f8b735f1527398fa0a9d6[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 15:56:34 2022 -0600
+
+    Prevent Selection of past dates
+
+[33mcommit 1429694f9dd2d5b38a12ef2d9a4e5fc9e0e6b535[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 15:02:40 2022 -0600
+
+    Calendar Icon
+
+[33mcommit f275e65bb3eb35109bc0e8923e4b8a13dab79cb6[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 14:59:23 2022 -0600
+
+    Calendar Icon
+
+[33mcommit 6c6103945efd35433d092fdd73e08c6c91d103ac[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 14:37:36 2022 -0600
+
+    Calendar Icon
+
+[33mcommit 1e6522d33328c9e9122ae518c97d883d0430b6e5[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 13:40:40 2022 -0600
+
+    Calendar Icon
+
+[33mcommit c7b104dc71098d3d2aa681be5ea6249cb6da0649[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 13:09:48 2022 -0600
+
+    Adding Boston sections
+
+[33mcommit bb4e09c9e01de27f28b31f631acc681a30a8ee45[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:57:08 2022 -0600
+
+    Adding tags
+
+[33mcommit c75b3821cf87a40b8b6726c0c4bfedf27df0dae0[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:36:21 2022 -0600
+
+    Google verify
+
+[33mcommit 66eeaacc1f41602df1d5c345df7fa9fc95412e6d[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:27:22 2022 -0600
+
+    Google verify
+
+[33mcommit 92cd3b74055d296bd6789663717b7294267baa69[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:24:56 2022 -0600
+
+    Google verify
+
+[33mcommit 4fd2342d6fcb450cc2d0beaa05cbef1ec90eb62b[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:05:08 2022 -0600
+
+    Fixing main card
+
+[33mcommit 304b814318c1caf2512b41b8dea0974b23c67cec[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 11:00:06 2022 -0600
+
+    Fixing main card
+
+[33mcommit f52ed487a22db863398744315cfad8ab4afeaa98[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Fri Dec 30 10:47:06 2022 -0600
+
+    Removing popular buttons
+
+[33mcommit d7bba67d204ac7a8f5ee088cda3ad5fce7cbe21c[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 14:44:03 2022 -0600
+
+    Adding spaces between popular buttons
+
+[33mcommit 6776f0e1b2e37577e8ca2d93b7a4a91dcd03ba8b[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 14:19:21 2022 -0600
+
+    Adding Favicon
+
+[33mcommit e0d5502d7afb0b354fa0ba245b7513e8a71f0133[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 13:39:43 2022 -0600
+
+    Adding Google Analytics tag
+
+[33mcommit 3f819f829b169aa5bd69e438a673101aedef8637[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 13:32:38 2022 -0600
+
+    Canada city descriptions
+
+[33mcommit b757e1052742c11afe6333275778274ae7183536[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 13:30:22 2022 -0600
+
+    Canada city descriptions
+
+[33mcommit 604ea738a74d86fec7c0a886a5a23e577883ee2e[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 11:17:50 2022 -0600
+
+    initial commit
+
+[33mcommit 0362235000477f2fd13eb5a0ec69167f22f7d2bc[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Thu Dec 29 10:37:52 2022 -0600
+
+    initial commit
+
+[33mcommit 015b8af7807bb15efb62c96a26251875686d2946[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 20:06:25 2022 -0600
+
+    initial commit
+
+[33mcommit 141af4002562be4059655be0039f78ee4ed668ec[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 18:39:01 2022 -0600
+
+    initial commit
+
+[33mcommit d665dd87f066a9908632e4a2dc9bf1950a70915d[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 18:33:38 2022 -0600
+
+    initial commit
+
+[33mcommit 454deb5ab8f4c1a9f9134baa3962a0933b5a51ae[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 18:27:51 2022 -0600
+
+    initial commit
+
+[33mcommit 9222d336df3ad1a455bfa5561c8066301deacc73[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 18:09:51 2022 -0600
+
+    initial commit
+
+[33mcommit 90327291ce5d676d61f4051a6e6e92753d7da46e[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 17:55:55 2022 -0600
+
+    initial commit
+
+[33mcommit 332f5eeb93c0958a71ea12143fb0b05ed084f194[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 17:48:47 2022 -0600
+
+    initial commit
+
+[33mcommit 8d0f7b6fc271ed1caf02beac6c1fa0de5d64e605[m
+Author: Bryan <Bryanbxbuhu@gmail.com>
+Date:   Wed Dec 28 17:29:40 2022 -0600
+
+    initial commit
+
+[33mcommit 7efb4e0f64083b200
